@@ -2,12 +2,12 @@ import numpy as np
 
 def bisezione(minIntervallo,maxIntervallo,fname,tolleranza,nInterazioniMax):
     '''
+    Calcolo dello zero di una funzione tramite il metodo della bisezione, restituisco lo zero , il numero di iterazioni e i valori di x calcolati
     INPUT:
     minIntervallo: float, estremo sinistro dell'intervallo
     maxIntervallo: float, estremo destro dell'intervallo
-    domF: list, dominio della funzione
-    fname: string, nome della funzione
-    tolleranza: float, tolleranza richiesta
+    fname: lambda, nome della funzione
+    tolleranza: float, tolleranza da non superare => calcolata tramite np.abs(maxIntervallo-minIntervallo) > tolleranza
     nInterazioniMax: int, numero massimo di iterazioni
 
     OUTPUT:
