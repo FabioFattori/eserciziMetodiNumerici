@@ -1,0 +1,14 @@
+matrice sparsa n elementi diversi da 0 minori del 33%
+matrice densa n elementi diversi da 0 maggiori del 33%
+
+matrice di grandi dimensioni => 300/400 elementi contenuti in esse 
+
+se una matrice piccola e densa e mal condizionata uso il metodo QR essendo più stabile 
+se una matrice piccola e densa e ben condizionata uso il metodo di Gauss
+
+una matrice è simmetrica se è uguale alla trasposta di se stessa (A==A.T)
+
+CONDIZIONAMENTO DELLA MATRICE
+ben condizionata quando l'indice di condizionamento è una potenza di 10 bassa (<10^2)
+mediamente condizionata quando l'indice di condizionamento è una potenza di 10 media (tra 10^2 e 10^4)
+mal condizionata quando l'indice di condizionamento è una potenza di 10 alta (>10^4)
